@@ -3,7 +3,11 @@ import React from "react";
 import "./Projects.scss";
 
 const Projects = () => {
-  return <div></div>;
+  return (
+    <div>
+      <h2>Projects Section</h2>
+    </div>
+  );
 };
 
 export default Projects;
