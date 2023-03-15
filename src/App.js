@@ -1,4 +1,7 @@
 import React from "react";
+
+import "./App.scss";
+
 import { About, Contacts, Footer, Header, Projects, Skills } from "./views";
 import { Navbar } from "./components";
 

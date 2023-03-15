@@ -5,6 +5,8 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -24,7 +26,7 @@ body {
   --color-primary: #edf2f8;
   --color-secondary: #5b63be;
   --color-black: #111111;
-  --color-gray: #757c88;
+  --color-gray: #565b64;
   --color-lighter-gray: #ececec;
   --color-brown: #4d4350;
   --color-white: #fafafa;
@@ -33,4 +35,6 @@ body {
   --border-radius-2: 0.8rem;
   --border-radius-3: 0.5rem;
   --border-radius-4: 0.2rem;
+
+  --transition: all 0.4s ease-in-out;
 }

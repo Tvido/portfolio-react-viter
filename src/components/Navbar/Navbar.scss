@@ -1,0 +1,147 @@
+.app__navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  background: rgba(91, 99, 190, 0.15);
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+  border: 1px solid rgba(91, 99, 190, 0.1);
+  z-index: 10;
+}
+
+.app__navbar-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  img {
+    width: 6rem;
+    border-radius: var(--border-radius-3);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.app__navbar-list {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    margin: 0 1rem;
+    cursor: pointer;
+    flex-direction: column;
+
+    div {
+      width: 80%;
+      height: 0.1rem;
+      background: transparent;
+      border-radius: var(--border-radius-3);
+      margin-bottom: 0.5rem;
+      transition: var(--transition);
+    }
+
+    a {
+      color: var(--color-gray);
+      flex-direction: column;
+      text-transform: uppercase;
+      font-weight: var(--font-semi-bold);
+      transition: var(--transition);
+
+      &:hover {
+        color: var(--color-secondary);
+      }
+    }
+
+    &:hover {
+      div {
+        background: var(--color-secondary);
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.app__navbar-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--border-radius-1);
+  background: var(--color-secondary);
+
+  svg {
+    width: 60%;
+    height: 60%;
+    color: var(--color-lighter-gray);
+  }
+
+  div {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    padding: 1rem;
+    width: 60%;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: var(--color-white);
+    box-shadow: 0 0 1rem rgba(91, 99, 190, 0.1);
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+      color: var(--color-gray);
+      margin: 1rem;
+    }
+
+    ul {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+
+      li {
+        margin: 1rem;
+
+        a {
+          color: var(--color-gray);
+          flex-direction: column;
+          text-transform: uppercase;
+          font-weight: var(--font-semi-bold);
+          transition: var(--transition);
+
+          &:hover {
+            color: var(--color-secondary);
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: 769px) {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    display: none;
+  }
+}
