@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Skills.scss";
 
+import AppWrapper from "../../components/AppWrapper/AppWrapper";
+
 const Skills = () => {
   return (
     <div>
@@ -10,4 +12,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default AppWrapper(Skills, "skills");

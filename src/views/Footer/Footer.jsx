@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Footer.scss";
 
+import AppWrapper from "../../components/AppWrapper/AppWrapper";
+
 const Footer = () => {
   return (
     <div>

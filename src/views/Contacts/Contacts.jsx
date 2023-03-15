@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Contacts.scss";
 
+import AppWrapper from "../../components/AppWrapper/AppWrapper";
+
 const Contacts = () => {
   return (
     <div>
@@ -10,4 +12,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default AppWrapper(Contacts, "contacts");

@@ -35,7 +35,7 @@ const Navbar = () => {
             <ul>
               {navbar.map((item) => (
                 <li key={item.title.toLocaleLowerCase()}>
-                  <a href={item.link} onClick={() => setToggle(false)}>
+                  <a href={`#${item.link}`} onClick={() => setToggle(false)}>
                     {item.title}
                   </a>
                 </li>

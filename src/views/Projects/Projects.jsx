@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Projects.scss";
 
+import AppWrapper from "../../components/AppWrapper/AppWrapper";
+
 const Projects = () => {
   return (
     <div>
@@ -10,4 +12,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default AppWrapper(Projects, "projects");

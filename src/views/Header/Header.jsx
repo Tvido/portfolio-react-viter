@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Header.scss";
 
+import AppWrapper from "../../components/AppWrapper/AppWrapper";
+
 const Header = () => {
   return (
     <div>
@@ -10,4 +12,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppWrapper(Header, "home");

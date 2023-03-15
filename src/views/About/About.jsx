@@ -2,6 +2,8 @@ import React from "react";
 
 import "./About.scss";
 
+import AppWrapper from "../../components/AppWrapper/AppWrapper";
+
 const About = () => {
   return (
     <div>
@@ -10,4 +12,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrapper(About, "about");
