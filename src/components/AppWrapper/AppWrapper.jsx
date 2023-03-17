@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./AppWrapper.scss";
-
 import NavigationDots from "../NavigationDots/NavigationDots";
 import SocialMedia from "../SocialMedia/SocialMedia";
 
