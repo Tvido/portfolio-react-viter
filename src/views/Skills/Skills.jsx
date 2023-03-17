@@ -28,6 +28,7 @@ const Skills = () => {
               <div className="app__flex">
                 <img src={item.icon} alt={item.title} />
               </div>
+              <p className="p-text">{item.title}</p>
             </motion.div>
           ))}
         </motion.div>
