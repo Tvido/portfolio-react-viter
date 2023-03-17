@@ -3,6 +3,7 @@ import React from "react";
 import "./Contacts.scss";
 
 import AppWrapper from "../../components/AppWrapper/AppWrapper";
+import MotionWrapper from "../../components/MotionWrapper/MotionWrapper";
 
 const Contacts = () => {
   return (
@@ -12,4 +13,8 @@ const Contacts = () => {
   );
 };
 
-export default AppWrapper(Contacts, "contacts");
+export default AppWrapper(
+  MotionWrapper(Contacts, "contacts"),
+  "contacts",
+  "app__whitebg"
+);

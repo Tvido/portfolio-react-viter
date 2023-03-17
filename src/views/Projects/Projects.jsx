@@ -7,6 +7,7 @@ import "./Projects.scss";
 import { filter, portfolios } from "../../assets/data";
 
 import AppWrapper from "../../components/AppWrapper/AppWrapper";
+import MotionWrapper from "../../components/MotionWrapper/MotionWrapper";
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -117,4 +118,10 @@ const Projects = () => {
   );
 };
 
-export default AppWrapper(Projects, "projects");
+// export default AppWrapper(Projects, "projects");
+
+export default AppWrapper(
+  MotionWrapper(Projects, "projects"),
+  "projects",
+  "app__whitebg"
+);

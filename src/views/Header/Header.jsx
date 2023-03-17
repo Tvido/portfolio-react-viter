@@ -3,6 +3,7 @@ import React from "react";
 import "./Header.scss";
 
 import AppWrapper from "../../components/AppWrapper/AppWrapper";
+import MotionWrapper from "../../components/MotionWrapper/MotionWrapper";
 
 const Header = () => {
   return (
@@ -12,4 +13,8 @@ const Header = () => {
   );
 };
 
-export default AppWrapper(Header, "home");
+export default AppWrapper(
+  MotionWrapper(Header, "home"),
+  "home",
+  "app__whitebg"
+);
