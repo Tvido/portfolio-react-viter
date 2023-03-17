@@ -1,0 +1,15 @@
+.copyright {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    background: rgba(91, 99, 190, 0.15);
+    backdrop-filter: blur(0.5rem);
+    -webkit-backdrop-filter: blur(0.5rem);
+    z-index: 10;
+}
