@@ -41,7 +41,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--color-secondary-hover);
     transition: var(--transition);
 
     img {

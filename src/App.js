@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./App.scss";
 
@@ -6,9 +6,20 @@ import { About, Contacts, Footer, Header, Projects, Skills } from "./views";
 import { Navbar } from "./components";
 
 const App = () => {
+  const [theme, setTheme] = useState("");
+
+  const toggleTheme = () => {
+    theme === "" ? setTheme("dark-theme") : setTheme("");
+  };
+
+  useEffect(() => {
+    document.body.className = theme;
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
   return (
     <div className="app">
-      <Navbar />
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Header />
       <About />
       <Projects />

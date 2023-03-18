@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { RiMenuFill, RiCloseFill } from "react-icons/ri";
+import { BsMoon, BsSun } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 import "./Navbar.scss";
 import { images } from "../../helpers";
 import { navbar } from "../../assets/data";
 
-const Navbar = () => {
+const Navbar = ({ theme, toggleTheme }) => {
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -14,6 +15,7 @@ const Navbar = () => {
       <div className="app__navbar-logo">
         <img src={images.logo} alt="logo" />
       </div>
+
       <ul className="app__navbar-list">
         {navbar.map((item) => (
           <li className="app__flex p-text" key={item.id}>
@@ -45,7 +47,19 @@ const Navbar = () => {
         )}
       </div>
 
-      <div className="theme"></div>
+      <div className="theme">
+        <span onClick={toggleTheme}>
+          {theme === "dark-theme" ? (
+            <span>
+              <BsSun />
+            </span>
+          ) : (
+            <span>
+              <BsMoon />
+            </span>
+          )}
+        </span>
+      </div>
     </nav>
   );
 };

@@ -50,3 +50,14 @@ body {
   background: var(--color-secondary);
   border-radius: 1rem;
 }
+
+.dark-theme {
+  --color-primary: #1b2352;
+  --color-secondary: #379cf6;
+  --color-secondary-hover: rgb(44, 54, 161);
+  --color-black: #ececec;
+  --color-gray: #cacaca;
+  --color-lighter-gray: #14436d;
+  --color-brown: #2e1249;
+  --color-white: #090238;
+}
