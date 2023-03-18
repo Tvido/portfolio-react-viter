@@ -18,7 +18,7 @@ const Navbar = () => {
         {navbar.map((item) => (
           <li className="app__flex p-text" key={item.id}>
             <div></div>
-            <a href={item.link}>{item.title}</a>
+            <a href={`#${item.link}`}>{item.title}</a>
           </li>
         ))}
       </ul>
@@ -44,6 +44,8 @@ const Navbar = () => {
           </motion.div>
         )}
       </div>
+
+      <div className="theme"></div>
     </nav>
   );
 };
