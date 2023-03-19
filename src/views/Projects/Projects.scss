@@ -37,8 +37,10 @@
 
 .projects__list {
   display: flex;
-  flex-wrap: wrap;
+  max-width: 1440px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 
   .projects__list-item {
     display: flex;

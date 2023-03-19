@@ -63,7 +63,15 @@ const Projects = () => {
         className="projects__list"
       >
         {filterProject.map((item) => (
-          <div key={item.id} className="projects__list-item app__flex">
+          <motion.div
+            key={item.id}
+            className="projects__list-item app__flex"
+            whileInView={{ scale: [0, 1] }}
+            transition={{
+              duration: 0.25,
+            }}
+          >
+            {/* <div key={item.id} className="projects__list-item app__flex"> */}
             <div className="projects__list-img app__flex">
               <img src={item.picture} alt={item.title} title={item.title} />
 
@@ -111,7 +119,8 @@ const Projects = () => {
                 <p className="p-text">{item.type[0]}</p>
               </div>
             </div>
-          </div>
+            {/* </div> */}
+          </motion.div>
         ))}
       </motion.div>
     </>
