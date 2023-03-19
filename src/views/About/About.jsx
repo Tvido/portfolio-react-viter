@@ -26,14 +26,12 @@ const About = () => {
               duration: 0.25,
             }}
           >
-            {/* <div key={item.id} className="about__item"> */}
             <div className="about__img">
               <img src={item.picture} alt={item.title} />
             </div>
 
             <h4 className="">{item.title}</h4>
             <p className="p-text">{item.description}</p>
-            {/* </div> */}
           </motion.div>
         ))}
       </motion.div>
