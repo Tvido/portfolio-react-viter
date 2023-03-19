@@ -1,0 +1,40 @@
+.about__wrapper-list {
+display: flex;
+    max-width: 1440px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about__item {
+  width: 270px;
+  height: 100%;
+  margin: 2rem;
+  padding: 2rem 1.5rem;
+flex-direction: column;
+  background-color: var(--color-lighter-gray);
+  border-radius: var(--border-radius-3);
+  cursor: pointer;
+transition: var(--transition);
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-black);
+    margin-bottom: 2rem;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 1rem 1.5rem rgba(86, 91, 100, 0.15);
+  }
+}
+
+.about__img img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.about__description {
+  font-size: 1rem;
+}
