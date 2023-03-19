@@ -10,7 +10,7 @@ import { images } from "../../helpers";
 
 const Contacts = () => {
   return (
-    <div className="contacts">
+    <div id="contacts" className="contacts">
       <div className="contacts__wrapper">
         <div className="contacts__logo app__flex">
           <img src={images.logo} alt="logo" />
