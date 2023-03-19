@@ -3,3 +3,4 @@ export { default as navbar } from "./navbarData";
 export { default as portfolios } from "./portfolioData";
 export { default as skills } from "./skillsData";
 export { default as advantages } from "./advantagesData";
+export { default as contactsData } from "./contactsData";
