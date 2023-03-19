@@ -17,12 +17,16 @@
 }
 
 .skills-list {
+  // display: flex;
+  // flex: 1;
+  // flex-wrap: wrap;
+  // align-items: flex-start;
+  // margin-right: 5rem;
   display: flex;
-  flex: 1;
+  max-width: 1440px;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-right: 5rem;
+  justify-content: center;
 
   @media screen and (max-width: 768px) {
     margin-right: 0;
