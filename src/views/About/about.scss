@@ -1,9 +1,9 @@
 .about__wrapper-list {
-display: flex;
-    max-width: 1440px;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about__item {
@@ -11,11 +11,11 @@ display: flex;
   height: 100%;
   margin: 2rem;
   padding: 2rem 1.5rem;
-flex-direction: column;
+  flex-direction: column;
   background-color: var(--color-lighter-gray);
   border-radius: var(--border-radius-3);
   cursor: pointer;
-transition: var(--transition);
+  transition: var(--transition);
 
   h4 {
     font-size: 1.5rem;
