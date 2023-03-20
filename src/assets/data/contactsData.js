@@ -27,7 +27,7 @@ const contactsData = [
     id: "3",
     title: "Contacts",
     links: [
-      { id: 1, title: "Email", link: "mail@mail.com" },
+      { id: 1, title: "Email", link: "mailto:viter.volodymyr.d@gmail.com" },
       { id: 2, title: "LinkedIn", link: "https://www.linkedin.com/in/viterd" },
       { id: 3, title: "My Resume", link: "https://tvido.github.io/viter-cv" },
     ],

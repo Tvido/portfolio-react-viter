@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="">
       <h3 className="head-text">
-        Hello World, I am <span>Tvido</span>
+        <span>Volodymyr Viter</span>
       </h3>
 
       <div className="header__container">
@@ -22,12 +22,12 @@ const Header = () => {
             duration: 0.5,
           }}
         >
-          <h3>Lorem, ipsum dolor.</h3>
+          <h3>Web Developer</h3>
           <p className="p-text">
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quos modi cum, est possimus optio non et ratione
-            fugit magnam aut incidunt nemo maiores ducimus quam neque minus
-            expedita maxime iure.
+            As of now, I have graduated from SOFTSERVE Internship and GoIT
+            courses. I have core knowledges of HTML, CSS, Git, Github, Webpack,
+            Javascript, React.js, Angular, Node.js, etc. I can be Your personal
+            developer.
           </p>
         </motion.div>
 
