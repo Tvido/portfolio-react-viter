@@ -4,7 +4,6 @@ const contactsData = [
     title: "Usefull Links",
     links: [
       { id: 1, title: "Galleries", link: "https://www.google.com/" },
-      { id: 2, title: "Technologies", link: "https://www.google.com/" },
       { id: 3, title: "Dou", link: "https://dou.ua/" },
     ],
   },
