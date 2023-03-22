@@ -7,7 +7,7 @@ const portfolioData = [
     demoLink: "https://liceum20.com.ua/",
     picture:
       "https://play-lh.googleusercontent.com/6UgEjh8Xuts4nwdWzTnWH8QtLuHqRMUB7dp24JYVE2xcYzq4HA8hFfcAbU-R-PC_9uA1",
-    type: ["React.js", "All"],
+    type: ["React.JS", "All"],
   },
   {
     id: 2,
