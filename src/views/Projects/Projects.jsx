@@ -71,7 +71,6 @@ const Projects = () => {
               duration: 0.25,
             }}
           >
-            {/* <div key={item.id} className="projects__list-item app__flex"> */}
             <div className="projects__list-img app__flex">
               <img src={item.picture} alt={item.title} title={item.title} />
 
