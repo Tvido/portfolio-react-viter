@@ -31,7 +31,7 @@ const portfolioData = [
   },
   {
     id: 4,
-    title: "Job Seeker Sike",
+    title: "Job Seeker Site",
     description: "Lorem ipsum dolor",
     codeLink: "https://github.com/Tvido/refugees",
     demoLink: "#",
