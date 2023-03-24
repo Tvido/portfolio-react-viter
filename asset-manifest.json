@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-react-viter/static/css/main.eb7e52a3.css",
-    "main.js": "/portfolio-react-viter/static/js/main.46ffeb8d.js",
+    "main.css": "/portfolio-react-viter/static/css/main.080651af.css",
+    "main.js": "/portfolio-react-viter/static/js/main.298d843d.js",
     "static/media/bgWhite.png": "/portfolio-react-viter/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/photo.jpg": "/portfolio-react-viter/static/media/photo.334251e7ab8583c62c69.jpg",
     "static/media/logo.svg": "/portfolio-react-viter/static/media/logo.5286e2d0cd14b411120b7625a5ffc5eb.svg",
     "index.html": "/portfolio-react-viter/index.html",
     "static/media/circle.svg": "/portfolio-react-viter/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.eb7e52a3.css.map": "/portfolio-react-viter/static/css/main.eb7e52a3.css.map",
-    "main.46ffeb8d.js.map": "/portfolio-react-viter/static/js/main.46ffeb8d.js.map"
+    "main.080651af.css.map": "/portfolio-react-viter/static/css/main.080651af.css.map",
+    "main.298d843d.js.map": "/portfolio-react-viter/static/js/main.298d843d.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb7e52a3.css",
-    "static/js/main.46ffeb8d.js"
+    "static/css/main.080651af.css",
+    "static/js/main.298d843d.js"
   ]
 }
