@@ -81,7 +81,7 @@ const skillsData = [
     id: 14,
     title: "Axios",
     bgColor: "",
-    icon: "https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Axios-900x0.png",
+    icon: "https://sites.tufts.edu/cierp/files/2020/06/axios-logo.jpg",
   },
 ];
 
