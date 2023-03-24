@@ -1,10 +1,11 @@
 .header__container {
-  max-width: 1440px;
+  display: flex;
   flex-wrap: wrap;
   padding: 3rem;
-  justify-content: space-between;
+  justify-content: center;
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 980px) {
+  max-width: 1440px;
     display: flex;
     justify-content: center;
   }
@@ -12,20 +13,16 @@
 
 .header__data-info {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin-right: 1rem;
   max-width: 370px;
 
-  @media screen and (max-width: 1439px) {
-    margin-bottom: 3rem;
-  }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 980px) {
     flex-wrap: wrap;
     width: 100%;
     flex-direction: column;
-    max-width: 340px;
-    margin-right: 5rem;
+    max-width: 320px;
   }
 
   h3 {
