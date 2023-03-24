@@ -4,7 +4,7 @@ const contactsData = [
     title: "Usefull Links",
     links: [
       { id: 1, title: "React", link: "https://uk.reactjs.org/" },
-      { id: 1, title: "DevDocs", link: "https://devdocs.io/" },
+      { id: 2, title: "DevDocs", link: "https://devdocs.io/" },
       { id: 3, title: "Dou", link: "https://dou.ua/" },
     ],
   },
